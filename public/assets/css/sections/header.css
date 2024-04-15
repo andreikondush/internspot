@@ -1,0 +1,122 @@
+header {
+    background-color: #fff;
+    box-shadow: 0 3px 5px 0 rgba(78, 88, 119, 0.1);
+    border-bottom: 1px solid #E3E3E3;
+}
+header.float {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 23px 0;
+}
+header .container {
+    display: flex;
+    text-align: center;
+}
+header #logo {
+    line-height: 1;
+    font-size: 42px;
+    font-weight: 700;
+    color: #217EDA;
+    margin-right: 30px;
+    font-family: 'Lobster Two', -apple-system, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 5px;
+    position: relative;
+}
+header #logo .isAdmin {
+    font-family: 'Roboto', -apple-system, sans-serif;
+    position: absolute;
+    font-size: 10px;
+    background-color: rgb(255,50,50);
+    color: #fff;
+    top: 15px;
+    z-index: 11;
+    right: 0;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+header.float #logo {
+    color: #FFFFFF;
+}
+header.float #logo .isAdmin {
+    top: -11px;
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+}
+header .menu .item.logout {
+    margin-left: auto;
+}
+header .menu .item a {
+    display: inline-flex;
+    padding: 40px 15px;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+}
+header .menu .item.logout a {
+    margin-left: auto;
+}
+header .menu .item a:hover,
+header .menu .item.active a{
+    background-color: #217EDA;
+    color: #fff;
+}
+header .menu .item.logout a i {
+    margin-right: 5px;
+}
+header .next {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+}
+header .next a {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 9px 27px;
+    line-height: 1.1;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+header .next a:hover {
+    background-color: #FFFFFF;
+    color: #217EDA;
+}
+header .next a i {
+    margin-right: 3px;
+}
+
+@media (max-width: 768px) {
+
+    header.float #logo {
+        margin-right: 0;
+        font-size: 35px;
+    }
+    header.float .next a {
+        padding: 8px 19px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header.float .next a {
+        padding: 7px 17px;
+        margin-left: 10px;
+    }
+    header.float .next a i {
+        display: none;
+    }
+}

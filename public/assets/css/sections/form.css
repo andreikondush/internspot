@@ -1,0 +1,29 @@
+#form {
+    padding: 23px 0 21px;
+}
+#form form .ql-toolbar {
+    margin-top: 3px;
+    width: 100%;
+}
+#form form .editor {
+    width: 100%;
+}
+#form form .tagify {
+    margin-top: 3px;
+}
+#form form .button {
+    margin-left: auto;
+    max-width: 140px;
+    margin-top: 15px;
+}
+#form form .form-box {
+    align-items: center;
+    width: calc(100% + 16px);
+    margin: 0 -8px;
+}
+#form form .form-box .left,
+#form form .form-box .right {
+    width: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+}

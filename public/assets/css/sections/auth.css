@@ -1,0 +1,21 @@
+#auth {
+    padding-top: 100px;
+}
+#auth form {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+}
+#auth form h1 {
+    text-align: center;
+}
+#auth form .button {
+    margin-top: 15px;
+    max-width: inherit;
+    margin-left: auto;
+}
+#auth form .info {
+    margin-top: 23px;
+    text-align: center;
+    padding: 0 15px;
+}

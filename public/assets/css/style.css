@@ -1,0 +1,12 @@
+@import "./global.css";
+
+@import "./preloader.css";
+@import "./pagination.css";
+
+@import "./sections/header.css";
+@import "./sections/preview.css";
+@import "./sections/auth.css";
+@import "./sections/list.css";
+@import "./sections/form.css";
+@import "./sections/show.css";
+

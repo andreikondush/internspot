@@ -1,0 +1,172 @@
+#show {
+    padding: 50px 0;
+}
+#show .container {
+    display: flex;
+}
+#show .container .left {
+    flex: 1 1 75%;
+    padding-right: 15px;
+    width: 75%;
+}
+#show .container .right {
+    flex: 1 1 25%;
+}
+#show .info {
+    padding: 10px 15px;
+    background-color: rgba(33, 126, 218, 0.85);
+    box-shadow: 0 5px 5px 0 rgba(78, 88, 119, 0.18);
+    border-radius: 5px;
+    color: #fff;
+}
+#show .info .item-info {
+    font-size: 14px;
+}
+#show .info .item-info span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+#show .item {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(78, 88, 119, 0.18);
+    border: 1px solid rgba(198, 208, 215, 0.3);
+    min-height: 285px;
+    padding: 21px 0 70px;
+    position: relative;
+}
+#show .item .title {
+    border-left: 5px solid #217EDA;
+    background-color: rgba(33, 126, 218, 0.05);
+    padding: 10px 15px;
+    line-height: 1.1;
+    color: #222;
+    width: calc(100% + 3px);
+    position: relative;
+    left: -3px;
+}
+#show .item .content {
+    padding: 0 15px;
+    margin-top: 21px;
+    max-width: 100%;
+    display: inline-block;
+}
+#show .item .content p {
+    overflow-wrap: break-word;
+}
+#show .item .panel {
+    width: 100%;
+    background-color: rgba(33, 126, 218, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+}
+#show .item .panel .button {
+    max-width: 80px;
+    border-radius: 0;
+    background-color: #116ECA;
+}
+#show .item .panel .button i {
+    margin-right: 5px;
+    font-size: 0.75rem;
+}
+#show .item .panel .parameters {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 7px;
+}
+#show .item .panel .parameters li {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0 8px;
+}
+#show .add_feedback,
+#show .comments {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(78, 88, 119, 0.18);
+    border: 1px solid rgba(198, 208, 215, 0.3);
+    margin-top: 21px;
+    padding: 10px 15px;
+}
+#show .add_feedback form textarea {
+    min-width: 100%;
+    width: 100% !important;
+    max-width: 100%;
+    min-height: 100px;
+}
+#show .add_feedback form input[type="range"] {
+    padding: 0 3px;
+    cursor: col-resize;
+}
+#show .add_feedback form .button {
+    max-width: 100px;
+    margin-left: auto;
+}
+#show .comments {
+    padding: 23px 15px 21px;
+}
+#show .comments ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#show .comments ul li {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(198, 208, 215, 0.3);
+    margin-top: 15px;
+    padding: 10px 15px;
+    position: relative;
+}
+#show .comments ul li .name {
+    font-weight: bold;
+    color: #222;
+}
+#show .comments ul li .text {
+    margin-top: 7px;
+    min-height: 40px;
+}
+#show .comments ul li .rate {
+    position: absolute;
+    bottom: 2px;
+    right: 8px;
+    font-size: 14px;
+}
+#show .comments ul li .dropdown {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    font-size: 14px;
+}
+#show .comments ul li .dropdown .dropbtn {
+    padding: 0;
+}
+#show .tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style-type: none;
+    padding: 0;
+    margin: 21px 0 0;
+}
+#show .tags li {
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    line-height: 1.1;
+    box-shadow: 1px 2px 2px 0 rgba(78, 88, 119, 0.18);
+    border: 1px solid rgba(198, 208, 215, 0.3);
+    border-radius: 5px;
+}
